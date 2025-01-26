@@ -1,3 +1,8 @@
+# Sean Jin - Submission for Part 0 - 2025
+
+## 0.4: When a user submits/saves a note
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -25,3 +30,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
+```
